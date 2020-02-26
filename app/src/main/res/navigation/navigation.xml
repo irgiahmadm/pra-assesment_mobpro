@@ -3,18 +3,34 @@
             xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
             android:id="@+id/navigation" app:startDestination="@id/menuFragment">
 
-    <fragment android:id="@+id/menuFragment" android:name="org.d3if0041.latihanpraassesment.MenuFragment"
-              android:label="fragment_menu" tools:layout="@layout/fragment_menu">
-        <action android:id="@+id/action_menuFragment_to_persegiPanjangFragment"
-                app:destination="@id/persegiPanjangFragment"/>
-        <action android:id="@+id/action_menuFragment_to_segitigaFragment" app:destination="@id/segitigaFragment"/>
-        <action android:id="@+id/action_menuFragment_to_aboutFragment2" app:destination="@id/aboutFragment2"/>
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="org.d3if0041.latihanpraassesment.MenuFragment"
+        android:label="Pra Assesment"
+        tools:layout="@layout/fragment_menu">
+        <action
+            android:id="@+id/action_menuFragment_to_persegiPanjangFragment"
+            app:destination="@id/persegiPanjangFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_segitigaFragment"
+            app:destination="@id/segitigaFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_aboutFragment2"
+            app:destination="@id/aboutFragment2" />
     </fragment>
-    <fragment android:id="@+id/aboutFragment2" android:name="org.d3if0041.latihanpraassesment.AboutFragment"
-              android:label="fragment_about" tools:layout="@layout/fragment_about"/>
-    <fragment android:id="@+id/persegiPanjangFragment"
-              android:name="org.d3if0041.latihanpraassesment.PersegiPanjangFragment"
-              android:label="fragment_persegi_panjang" tools:layout="@layout/fragment_persegi_panjang"/>
-    <fragment android:id="@+id/segitigaFragment" android:name="org.d3if0041.latihanpraassesment.SegitigaFragment"
-              android:label="fragment_segitiga" tools:layout="@layout/fragment_segitiga"/>
+    <fragment
+        android:id="@+id/aboutFragment2"
+        android:name="org.d3if0041.latihanpraassesment.AboutFragment"
+        android:label="About"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/persegiPanjangFragment"
+        android:name="org.d3if0041.latihanpraassesment.PersegiPanjangFragment"
+        android:label="Persegi Panjang"
+        tools:layout="@layout/fragment_persegi_panjang" />
+    <fragment
+        android:id="@+id/segitigaFragment"
+        android:name="org.d3if0041.latihanpraassesment.SegitigaFragment"
+        android:label="Segitiga"
+        tools:layout="@layout/fragment_segitiga" />
 </navigation>
