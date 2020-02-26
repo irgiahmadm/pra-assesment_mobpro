@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">LatihanPraAssesment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="persegi_panjang">Persegi Panjang</string>
+    <string name="segitiga">Segitiga</string>
+    <string name="panjang">Panjang</string>
+    <string name="lebar">Lebar</string>
+    <string name="hitung">Hitung</string>
+    <string name="default_zero">0</string>
+    <string name="share">Share</string>
+    <string name="alas">Alas</string>
+    <string name="tinggi">Tinggi</string>
+    <string name="about">About</string>
+    <string name="identitas">Irgi Ahmad Maulana  \n 6706170041  \n  D3RPLA-42-03</string>
+</resources>
